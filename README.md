@@ -1,4 +1,6 @@
-# SPECTRE — Spectral Phase-Encoded Complex Token Representations (Synthesized via Socratic dialogue between Ajay and Fable)
+# SPECTRE — Spectral Phase-Encoded Complex Token Representations 
+
+(Synthesized via Socratic dialogue between Ajay and Fable)
 
 **A deterministic, parameter-light Fourier alternative to Kronecker embeddings — no learned embedding table, no additive positional encoding, no OOV.**
 
