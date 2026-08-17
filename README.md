@@ -4,6 +4,7 @@
 
 Each token is encoded as a fixed-width interference pattern of unit phasors: bytes choose *channels*, codepoint positions choose *phases*, and a geometric ladder of frequencies gives multi-scale resolution. One learned linear projection maps that fixed vector into `d_model`. Sequence position is then injected multiplicatively, RoPE-style, so additive PE is removed entirely.
 
+## Please go through the sample excel attached to see how SPECTRE works, in detail.
 ---
 
 ## TL;DR
