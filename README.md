@@ -17,7 +17,6 @@ Word-level tinyshakespeare, 4-layer GPT, identical attention/MLP/head architectu
 |---|---|---|---|---|---|---|
 | Clean | 128 | 4 | 8 | ~7.5 | ~6.2 | ~1.3 |
 | Clean | 256 | 8 | 16 | 6.630 | 5.746 | **0.884** |
-| Clean | 512 | 16 | 32 | 7.374 | 6.341 | **1.033** |
 | Typo (10%) | 256 | 8 | 16 | 7.474 | 6.141 | **1.333** |
 
 SPECTRE is ahead in every configuration tested, and the margin is ~50% larger on typo-corrupted text (1.33 vs 0.88 nats) — consistent with the claim that a character-level perturbation only disturbs a few phasors rather than replacing an entire embedding row.
